@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden; /*kills horizontal scroll*/
+}
+
+/* html {
+    
+} */
+/* body {
+} */
+ /* main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 326px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 50px 100px -20px #08465E81;
+} */
+.main-container {
+    padding: 16px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    padding: 36px 16px;
+    background-color: #13183F;
+    
+}
+
+footer button {
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+}
+footer button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+.get_started {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    cursor: pointer;
+    padding: 9px 24px 11px;
+    border-radius: 28px;
+    border: 0;
+    background-color: #13183F;
+    color: white;
+    text-align: left;
+    z-index: 3;    
+}
+
+
+.get_started:hover {
+    background-color: #666ca3;
+}
+.skill {
+    font-family: 'Plus Jakarta Bold', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 38px;
+}
+.modern {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #83869A;
+    margin-top: 26px;
+    margin-bottom: 24px;
+}
+.pink_get_started {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 15px 38px;
+    border-radius: 32px;
+    border: 0;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 46px;
+}
+.pink_get_started:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.check {
+    padding: 24px 29px 32px 28px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    margin-bottom: 40px;
+
+}
+.course {
+    font-family: 'Plus Jakarta Sans';
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.five_cards {
+    margin-top: 320px;
+    margin-bottom: 60px;
+}
+.the_card {
+    position: relative;
+    margin-bottom: 40px;
+}
+.top_img {
+    position: absolute;
+    top: -12%;
+}
+.the_h2 {
+    margin-top: 39px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    text-overflow: 100;
+    font-family: 'Plus Jakarta Bold';
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.the_p {
+    margin-bottom: 16px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #83869A;
+}
+
+.the_card {
+    padding: 16px 29px 32px 28px;
+    background: white;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 25px 50px 0px #06168D0B;
+}
+.the_link {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #F74780;
+    text-transform: capitalize;
+}
+
+
+
+.start {
+    color: white;
+    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.george {
+    color: rgb(175, 172, 188);
+}
+.george:hover {
+    color: #F74780;
+
+}
+.powered {
+    color: rgb(175, 172, 188);
+    margin-right: 4px;
+}

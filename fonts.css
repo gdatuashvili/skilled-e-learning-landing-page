@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Red Hat Display Bold';
+    src: 
+    url('./fonts/Red_Hat_Display-Bold/RedHatDisplay-Bold.woff2') format('woff2'),
+    url('./fonts/Red_Hat_Display-Bold/RedHatDisplay-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: 
+    url('./fonts/Red_Hat_Display-Regular/RedHatDisplay-Regular.woff2') format('woff2'),
+    url('./fonts/Red_Hat_Display-Regular/RedHatDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kumbh Sans';
+    src: 
+    url('./fonts/KumbhSans/KumbhSans-Regular.woff2') format('woff2'),
+    url('./fonts/KumbhSans/KumbhSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: 
+    url('./fonts/Plus_Jakarta_Sans/PlusJakartaSans-Regular.woff') format('woff'),
+    url('./fonts/Plus_Jakarta_Sans/PlusJakartaSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plus Jakarta Bold';
+    src: 
+    url('./fonts/plus_jakarta_bold/PlusJakartaSans-Bold.woff') format('woff'),
+    url('./fonts/plus_jakarta_bold/PlusJakartaSans-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

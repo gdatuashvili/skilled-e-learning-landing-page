@@ -1,0 +1,115 @@
+
+
+@media only screen and (min-width: 400px) {
+   
+} 
+
+@media only screen and (min-width: 600px) {
+    .three_things_and_img {
+        display: flex;
+    }
+    
+    
+    .main-container {
+        padding: 24px 40px;
+    }
+    picture {
+        margin-bottom: 99px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .three_things_and_img {
+        width: 400px;
+    }
+    .five_cards {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+    }
+    body {
+        position: relative;
+    }
+    picture {
+        position: absolute;
+        top: -105px;
+        right: -300px;
+        z-index: 2;
+    }
+    .check {
+        width: 339px;
+        padding: 56px 21px 139px 32px;
+    }
+    .the_card {
+        width: 339px;
+    }
+} 
+
+
+
+@media only screen and (min-width: 880px) {
+    
+
+    .three_things_and_img {
+        width: 600px;
+    }
+    .modern {
+        width: 540px;
+    }
+    
+}
+
+@media only screen and (min-width: 1150px) {
+    .sixth {
+        margin-top: 500px;
+    }
+
+    
+    
+}
+
+
+
+@media only screen and (min-width: 1320px) {
+    .h1_p_btn {
+        width: 480px;
+    }
+    .h1_p_btn p {
+        width: 445px;
+    }
+
+    .five_cards {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 30px;
+        margin-top: 415px;
+    }
+    
+    .skill {
+        font-size: 56px;
+        font-weight: 800;
+        line-height: 71px;
+
+    }
+    .main-container {
+        padding: 24px 165px;
+    }
+   
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
